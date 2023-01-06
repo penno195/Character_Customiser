@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c8bca34b0d684cf4c879b2d0c87988fb, type: 3}
+  m_Name: All_Assets
+  m_EditorClassIdentifier: 
+  Hair:
+  - {fileID: 4300022, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300004, guid: 1275f10df64edc94b8c9d0a2c9ca5f6b, type: 3}
+  - {fileID: 4300026, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300028, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300030, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300032, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300034, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300036, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300038, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300040, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300118, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300120, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300122, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300124, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  Shoulderpads:
+  - {fileID: 4300010, guid: 82b83465410993e4d937d8398fc05c05, type: 3}
+  - {fileID: 4300068, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300070, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300072, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300074, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300076, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  Clothes:
+  - {fileID: 4300008, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300010, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300012, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300014, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300002, guid: 8775b04b9ea50c2478071f4c111e623f, type: 3}
+  - {fileID: 4300018, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300020, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300114, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300116, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  Belts:
+  - {fileID: 4300106, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300108, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300110, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  Gloves:
+  - {fileID: 4300042, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300044, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300006, guid: b64ed576307509d4988bf6e7142359fe, type: 3}
+  - {fileID: 4300048, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300050, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300052, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300126, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  Shoes:
+  - {fileID: 4300054, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300008, guid: dbefda989c0935142b30ce56f832dcbf, type: 3}
+  - {fileID: 4300058, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300060, guid: 47388b002c80e8b49827d81977725b78, type: 3}
+  - {fileID: 4300062, guid: 47388b002c80e8b49827d81977725b78, type: 3}
