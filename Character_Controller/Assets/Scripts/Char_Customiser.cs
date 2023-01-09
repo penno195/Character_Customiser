@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class Char_Customiser : MonoBehaviour
 {
@@ -14,7 +15,13 @@ public class Char_Customiser : MonoBehaviour
     public SkinnedMeshRenderer Belts;    
     public SkinnedMeshRenderer Gloves;    
     public SkinnedMeshRenderer Shoes;
-    
+
+    public int[] Item_Cost = new int[6];
+    public int Total_Item_Cost;
+    public int Available_Money = 5000;
+    public Text Item_Cost_Text;
+    public Text Available_Money_Text;
+
     public void SetItem(SkinnedMeshRenderer Meshrenderer, Mesh[] meshArray)
     {
         Meshrenderer.sharedMesh = meshArray[currentlySelectedIndex[itemType]];
@@ -125,5 +132,24 @@ public class Char_Customiser : MonoBehaviour
     {
         itemType = value;
         
+    }
+    public void Total_Cost()
+    {
+        
+        Item_Cost[0] = 100 * 12 * (currentlySelectedIndex[0] + 1) / 20;
+        Item_Cost[1] = 140 * 14 * (currentlySelectedIndex[1] + 1) / 10;
+        Item_Cost[2] = 180 * 16 * (currentlySelectedIndex[2] + 1) / 30;
+        Item_Cost[3] = 250 * 18 * (currentlySelectedIndex[3] + 1) / 40;
+        Item_Cost[4] = 120 * 10 * (currentlySelectedIndex[4] + 1) / 10;
+        Item_Cost[5] = 150 * 14 * (currentlySelectedIndex[5] + 1) / 10;
+
+        Total_Item_Cost = Item_Cost[0] + Item_Cost[1] + Item_Cost[2] + Item_Cost[3] + Item_Cost[4] + Item_Cost[5];
+        Item_Cost_Text.text = ("$" + Total_Item_Cost);
+        Available_Money_Text.text = ("$" + Available_Money);
+
+    }
+    public void Update()
+    {
+        Total_Cost();
     }
 }
